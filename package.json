@@ -3,7 +3,7 @@
   "name": "todo-list-app",
   "version": "0.1.0",
   "description": "A basic to-do list web application using React",
-  "private": true,
+  "private": false,
   "author": "Balaji Bathini",
   "license": "MIT",
   "dependencies": {
@@ -25,7 +25,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "predeploy": "npm run build",
-"deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
